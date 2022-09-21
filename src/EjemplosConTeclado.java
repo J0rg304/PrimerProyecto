@@ -33,5 +33,22 @@ public class EjemplosConTeclado {
             double patrimonio = sc.nextDouble();
         System.out.println("es muy poco");
         //con los decimales cuando los escribimos en el codigo fuente se  pone . pero cunado metemos los datos por teclado se pone ,
+
+        //Formas alternativas de declarar una variable
+            String lenguaje = "java";
+            String version = "8 o superior";
+            //Tambien se puede hacer asi
+
+        String lenguaje1 = "java", version1 = "10 o superior";
+        int num1 = 5, num2 = 10; //declara dos variables de tipo int en la misma linea
+            //tambien puedes hacer
+        int num3; //aqui declara la variable sin asignar nada, coge el valor por defecto: en los numeros  es 0
+        num3 = 6;
+        num3 = num1; //aqui guarda en num3 el valor 5
+
+        //inferencia de tipos
+        var variable = "hola";
+        var otravariable = 10;
+
     }
 }
