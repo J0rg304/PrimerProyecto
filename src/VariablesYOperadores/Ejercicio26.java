@@ -14,7 +14,7 @@ public class Ejercicio26 {
         // Datos que necesitamos pedir:
         Scanner sc = new Scanner(System.in);
         System.out.println("Sueldo base");
-        double sueldoBase = sc.nextDouble(); // 100
+        double sueldoBase = sc.nextDouble(); // 1100
         System.out.println("Importe venta 1");
         double venta1 = sc.nextDouble(); // 150
         System.out.println("Importe venta 2");
@@ -25,8 +25,8 @@ public class Ejercicio26 {
         // Ahora calculamos la comision
 
         double comision1 = venta1 * 10 / 100; // 15
-        double comision2 = venta1 * 10 / 100; // 20
-        double comision3 = venta1 * 10 / 100; // 17.5
+        double comision2 = venta2 * 10 / 100; // 20
+        double comision3 = venta3 * 10 / 100; // 17.5
         double comision = comision1 + comision2 + comision3; // 52.5
 
         System.out.println("Obtendra por comisiones " + comision + " euros");
