@@ -46,6 +46,5 @@ public class Ejercicio27 {
         // La calificacion sera la suma de los porcentajes que hemos calculado
         double calificacionFinal = porcentajeParciales + porcentajeTrabajoFinal;
         System.out.printf("La calificacin final sera %2f", calificacionFinal);
-
     }
 }
